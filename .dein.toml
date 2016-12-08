@@ -1,0 +1,23 @@
+[[plugins]]
+repo = 'Shougo/dein.vim'
+
+[[plugins]]     # change the filetype by position of cursor
+repo = 'osyo-manga/vim-precious'
+depends = ['context_filetype.vim']
+
+[[plugins]]     # detect the filetype which cursor exist now
+repo = 'Shougo/context_filetype.vim'
+
+[[plugins]]     # toml syntax
+repo = 'cespare/vim-toml'
+on_ft = 'toml' 
+
+
+[[plugins]]     # color schemer
+repo = 'w0ng/vim-hybrid'
+hook_add = '''
+    set background=dark
+    " because setting of color schemer have to be done after source, do by VimEnter
+    " however in order to prevent the event we have to add nented
+    au MyAutoCmd VimEnter * nested colorscheme hybrid
+'''
