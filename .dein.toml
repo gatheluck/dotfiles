@@ -10,8 +10,11 @@ repo = 'Shougo/context_filetype.vim'
 
 [[plugins]]     # toml syntax
 repo = 'cespare/vim-toml'
-on_ft = 'toml' 
+on_ft = 'toml'
 
+[[plugins]]
+repo = 'Shougo/neocomplete.vim'
+insert = 1 
 
 [[plugins]]     # color schemer
 repo = 'w0ng/vim-hybrid'
