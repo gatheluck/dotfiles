@@ -1,0 +1,25 @@
+{
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter-notebook"
+    },
+
+    //--- Docker ---//
+    "[dockerfile]": {
+        "editor.insertSpaces": true,
+        "editor.tabSize": 4
+    },
+    // make renamed Dockerfile lintable
+    "files.associations": {
+        "Dockerfile*": "dockerfile"
+    },
+
+    //--- Python ---//
+    "[python]": {
+        "editor.insertSpaces": true,
+        "editor.tabSize": 4
+    },
+    "notebook.cellToolbarLocation": {
+        "default": "right",
+        "jupyter-notebook": "left"
+    }
+}
