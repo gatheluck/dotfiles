@@ -16,7 +16,9 @@
     //--- Python ---//
     "[python]": {
         "editor.insertSpaces": true,
-        "editor.tabSize": 4
+        "editor.tabSize": 4,
+        // ---vertical ruler --- // 
+        "editor.rulers": [72, 79]
     },
     "notebook.cellToolbarLocation": {
         "default": "right",
