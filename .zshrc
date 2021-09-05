@@ -32,6 +32,8 @@ export LD_LIBRARY_PATH="/usr/local/cuda/lib64:$LD_LIBRARY_PATH"
 # : pyenv
 # add .pyenv/shims to environment variable to load appropriate python versions defined by, 'pyenv local' or 'pyenv global'.
 # if you want to know how fllowing line work, please execute, 'echo "$(pyenv init -)"'.
+export PYENV_ROOT="$HOME/.pyenv"
+export PATH="$PYENV_ROOT/bin:$PATH"
 eval "$(pyenv init -)"
 
 # : nvm
